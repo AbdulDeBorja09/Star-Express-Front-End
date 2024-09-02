@@ -718,6 +718,9 @@ footer .line {
     margin-right: 20px;
     font-size: 15px;
   }
+  .home-contact .email {
+    margin-left: -1px;
+  }
   .home-contact .address {
     font-size: 9px;
     font-weight: 500;
@@ -725,7 +728,7 @@ footer .line {
   .home-contact .social {
     font-size: 9px;
     font-weight: 700;
-    margin-top: -2px;
+    margin-top: -1px;
   }
 
   footer .reserve {
