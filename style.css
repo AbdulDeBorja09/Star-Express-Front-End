@@ -399,3 +399,116 @@ footer .line {
   margin: -2px 5px 0px 5px;
   font-size: 13px;
 }
+
+@media screen and (max-width: 440px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+  }
+  .navbar-scrolled {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+  }
+  .navbar-img {
+    width: 100px;
+    transition: ease-in-out 0.2s;
+  }
+  .navbars-icons {
+    display: none;
+  }
+  .offcanvas {
+    background-color: #171d2c;
+    color: white;
+  }
+  .nav-link {
+    color: white;
+    margin: 5px 20px;
+    font-size: 13px;
+  }
+  .home-service {
+    min-height: 100vh;
+    margin: 0px 20px;
+  }
+  .home-service .title {
+    margin: 20px 0px 10px 0px;
+    font-size: 15px;
+  }
+
+  .home-service .box-img {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+  .home-service-box {
+    flex-direction: column-reverse;
+  }
+  .home-service-box .box {
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .home-service-box .name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .home-service-box .yellow-mark {
+    display: none;
+  }
+  .home-service-box .name2 {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .home-service-box .description {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -5px;
+    width: 90%;
+  }
+  .home-service-box .price-tag {
+    width: 15px;
+    margin-top: -5px;
+  }
+  .home-service-box .price {
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .home-service-box button {
+    background-color: transparent;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 9px;
+    border: 2px solid #fcb040;
+    margin-top: 10px;
+    transition: ease-in-out 0.2s;
+  }
+  .home-service-box button:hover {
+    background-color: #fcb040;
+  }
+  .home-service .viewmore button {
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin-top: 70px;
+    color: white;
+    background-color: #171d2c;
+    border: 1px solid #171d2c;
+    transition: ease-in-out 0.2s;
+  }
+  .home-service .viewmore button:hover {
+    background-color: transparent;
+    border: 2px solid #171d2c;
+    color: #171d2c;
+  }
+}
