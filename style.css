@@ -560,4 +560,187 @@ footer .line {
     font-weight: 600;
     font-size: 12px;
   }
+
+  .home-about {
+    background-image: url("Image/aboutbg.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
+  .home-about .about-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  .home-about .about-flex .left,
+  .home-about .about-flex .right {
+    width: 100%;
+  }
+  .home-about .about-flex .left {
+    text-align: center;
+    padding: 50px 30px 0px 30px;
+  }
+  .home-about .about-flex .year-img {
+    width: 100%;
+  }
+  .home-about .about-flex .desc {
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  .home-about .about-flex .right {
+    padding-top: 10px;
+    padding: 10px 30px 0px 30px;
+    text-align: center;
+  }
+  .home-about .about-flex .right .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-about .about-flex .right div {
+    margin: 20px 0px 20px 0px;
+    vertical-align: middle;
+  }
+  .home-about .about-flex .right img {
+    width: 50px;
+    margin: auto;
+  }
+  .home-about .about-flex .right h6 {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .home-choose {
+    background-image: url("Image/home-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-height: 500vh;
+    padding: 20px 10px;
+  }
+  .home-choose .d-flex {
+    margin: 20px 0px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .home-choose h1 {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+  }
+  .home-choose img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+  }
+  .home-choose p {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    padding: 0px 40px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+  }
+
+  .home-contact {
+    max-height: 1000vh;
+    background-image: url("Image/contactusbg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding-top: 20px;
+    z-index: -5;
+  }
+  .home-contact .row {
+    margin: 0px 0px;
+    opacity: 2;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    flex-direction: column;
+  }
+
+  .home-contact .col-4 {
+    padding: 10px 20px;
+  }
+  .home-contact form {
+    padding: 0px 20px;
+  }
+  .home-contact .form-control {
+    border: 1px solid black;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: -24px;
+    font-size: 7px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+  }
+  .home-contact .form-control::placeholder {
+    color: black;
+  }
+  .home-contact label {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .home-contact button {
+    border-radius: 5px;
+    padding: 3px 30px;
+    font-size: 9px;
+    margin-top: 20px;
+    font-weight: 600;
+
+    transition: ease-in-out 0.2s;
+  }
+  .home-contact button:hover {
+    background-color: #171d2c;
+    color: white;
+  }
+  .home-contact iframe {
+    padding: 20px;
+  }
+  .home-contact .maps {
+    color: #aa2025;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .home-contact .socialmedia {
+    margin-top: 10px;
+  }
+  .home-contact .medias {
+    padding: 0px 20px;
+  }
+  .home-contact .fb,
+  .home-contact .whatsup,
+  .home-contact .email {
+    color: #171d2c;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  .home-contact .address {
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .home-contact .social {
+    font-size: 9px;
+    font-weight: 700;
+    margin-top: -2px;
+  }
+
+  footer .reserve {
+    font-size: 6px;
+    margin-left: 30px;
+  }
+  footer .content a {
+    font-size: 6px;
+  }
+  footer .content {
+    padding-top: 20px;
+  }
+  footer .line {
+    color: white;
+    margin: -2px 2px 0px 2px;
+    font-size: 6px;
+  }
 }
