@@ -18,10 +18,14 @@
 
 .navbar-scrolled {
   background-color: white;
-  padding: 20px 80px 25px 80px;
+  padding: 20px 50px 25px 50px;
 }
-.navbar-brand img {
+/* .navbar-scrolled .navbar-img {
+  width: 150px;
+} */
+.navbar-img {
   width: 200px;
+  transition: ease-in-out 0.2s;
 }
 .navbar-nav {
   margin-bottom: -50px;
@@ -293,7 +297,7 @@
 
 /* Home contact */
 .home-contact {
-  min-height: 45vh;
+  min-height: 50vh;
   max-height: 50vh;
   background-image: url("Image/contactbg.png");
   background-repeat: no-repeat;
@@ -389,4 +393,9 @@ footer .content {
   display: flex;
   justify-content: space-around;
   padding-top: 18px;
+}
+footer .line {
+  color: white;
+  margin: -2px 5px 0px 5px;
+  font-size: 13px;
 }
