@@ -293,7 +293,7 @@
 
 /* Home contact */
 .home-contact {
-  min-height: 50vh;
+  min-height: 45vh;
   max-height: 50vh;
   background-image: url("Image/contactbg.png");
   background-repeat: no-repeat;
