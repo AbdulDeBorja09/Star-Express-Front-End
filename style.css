@@ -221,7 +221,6 @@
 
 .home-about {
   background-image: url("Image/aboutbg.png");
-  min-height: 100vh;
   object-fit: cover;
   background-repeat: no-repeat;
 }
