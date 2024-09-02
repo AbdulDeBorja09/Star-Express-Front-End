@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  background-color: transparent;
+  padding: 60px 80px 10px 80px;
+}
+
+.navbar-scrolled {
+  background-color: white;
+  padding: 20px 80px 25px 80px;
+}
+.navbar-brand img {
+  width: 200px;
+}
+.navbar-nav {
+  margin-bottom: -50px;
+}
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  margin: 0px 20px;
+  font-size: 15px;
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.navbars-icons {
+  margin-bottom: -50px;
+}
+.navbars-icons a {
+  color: black;
+  font-size: 20px;
+  margin: 0px 10px;
+  font-size: 15px;
+}
+
+/* Home Carousel */
+.carousel-1 {
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 300px 100px 0px 100px;
+  position: absolute;
+  width: 60%;
+}
+.carousel-1 h5 {
+  font-size: 8vh;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Home Services */
+.home-service {
+  min-height: 100vh;
+  margin: 0px 150px;
+}
+
+.home-service .title {
+  font-weight: 700;
+  margin: 50px 0px 40px 0px;
+  font-size: 25px;
+}
+.home-service .box-img {
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  object-fit: cover;
+  object-position: bottom center;
+  text-align: center;
+}
+.home-service-box {
+  display: flex;
+  flex-direction: row;
+}
+.home-service-box .box {
+  width: 30%;
+  margin: 0px 70px;
+}
+.home-service-box .name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+}
+.home-service-box .yellow-mark {
+  width: 40px;
+  margin-left: 7px;
+  margin-top: -3px;
+}
+.home-service-box .name2 {
+  font-weight: 400;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.home-service-box .description {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: -5px;
+  width: 90%;
+}
+
+.home-service-box .price-tag {
+  width: 20px;
+  margin-top: -5px;
+}
+.home-service-box .price {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.home-service-box button {
+  background-color: transparent;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 2px solid #fcb040;
+  margin-top: 15px;
+  transition: ease-in-out 0.2s;
+}
+.home-service-box button:hover {
+  background-color: #fcb040;
+}
+.home-service .viewmore button {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 7px;
+  padding: 10px 10px;
+  margin-top: 70px;
+  color: white;
+  background-color: #171d2c;
+  border: 1px solid #171d2c;
+  transition: ease-in-out 0.2s;
+}
+.home-service .viewmore button:hover {
+  background-color: transparent;
+  border: 2px solid #171d2c;
+  color: #171d2c;
+}
+
+/* Home news and events */
+.home-news {
+  background-image: url(/Image/Newsbg.png);
+  max-height: 80vh;
+  min-height: 80vh;
+  object-fit: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.home-news .title {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 50px 0px;
+}
+
+.home-news .news-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.home-news .news-box {
+  margin: 0px 120px;
+}
+.home-news .news-box .box {
+  width: 25%;
+  margin: 0px 30px;
+}
+.home-news .news-box .event-img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.home-news .news-box .date {
+  color: white;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.home-news .news-box h1 {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+}
+.home-news .news-box .date i {
+  margin-right: 10px;
+}
+.home-news .news-box .desc {
+  color: white;
+  font-size: 15px;
+  text-align: justify;
+}
+.home-news .news-box a {
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Home about */
+
+.home-about {
+  background-image: url(/Image/aboutbg.png);
+  min-height: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.home-about .about-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 200px;
+}
+.home-about .about-flex .left,
+.home-about .about-flex .right {
+  width: 50%;
+}
+.home-about .about-flex .year-img {
+  width: 70%;
+}
+.home-about .about-flex .desc {
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.home-about .about-flex .right {
+  padding-top: 50px;
+}
+.home-about .about-flex .right div {
+  margin: 50px 0px 50px 70px;
+  vertical-align: middle;
+}
+.home-about .about-flex .right img {
+  width: 70px;
+}
+.home-about .about-flex .right h6 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+/* Home whye choose us */
+.home-choose {
+  background-image: url("Image/home-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 50vh;
+  max-height: 50vh;
+  padding: 20px 150px;
+}
+.home-choose .d-flex {
+  margin: 20px 0px;
+}
+.home-choose h1 {
+  color: white;
+  font-weight: 700;
+  margin: 20px 0px 30px 120px;
+
+  text-transform: uppercase;
+}
+.home-choose img {
+  width: 40px;
+  height: 40px;
+}
+.home-choose p {
+  margin-left: 40px;
+  width: 30%;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+
+/* Home contact */
+.home-contact {
+  min-height: 50vh;
+  max-height: 50vh;
+  background-image: url("Image/contactbg.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding-top: 70px;
+  z-index: -5;
+}
+.home-contact .row {
+  margin: 0px 350px;
+  opacity: 2;
+  justify-content: space-between;
+}
+
+.home-contact .col-4 {
+  padding: 20px;
+}
+
+.home-contact .form-control {
+  border: 1px solid black;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: -28px;
+  font-size: 10px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+.home-contact .form-control::placeholder {
+  color: black;
+}
+.home-contact label {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.home-contact button {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 3px 30px;
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
+}
+.home-contact button:hover {
+  background-color: #171d2c;
+  color: white;
+}
+.home-contact .maps {
+  color: #aa2025;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.home-contact .socialmedia {
+  margin-top: 50px;
+}
+.home-contact .fb,
+.home-contact .whatsup,
+.home-contact .email {
+  color: #171d2c;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.home-contact .address {
+  font-size: 13px;
+  font-weight: 500;
+}
+.home-contact .social {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -2px;
+}
+/*  Footer */
+
+footer {
+  background-color: #171d2c;
+  min-height: 50px;
+}
+
+footer .reserve {
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+  margin-left: 50px;
+}
+footer .content a {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+footer .content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 18px;
+}
