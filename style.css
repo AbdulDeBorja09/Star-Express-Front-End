@@ -489,20 +489,75 @@ footer .line {
     background-color: #fcb040;
   }
   .home-service .viewmore button {
-    text-transform: uppercase;
-    font-weight: 700;
     border-radius: 5px;
     padding: 5px 10px;
     margin-top: 70px;
     font-size: 13px;
-    color: white;
-    background-color: #171d2c;
-    border: 1px solid #171d2c;
     transition: ease-in-out 0.2s;
+    margin-bottom: 50px;
   }
-  .home-service .viewmore button:hover {
-    background-color: transparent;
-    border: 2px solid #171d2c;
-    color: #171d2c;
+
+  .home-news {
+    max-height: 80vh;
+    min-height: 80vh;
+    object-fit: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .home-news .title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 50px 0px 0px 0px;
+  }
+
+  .home-news .news-box {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+  .home-news .news-box {
+    margin: 40px 0px;
+  }
+  .home-news .news-box .box {
+    min-width: 90%;
+    flex: 0 0 auto;
+    margin: 0px 20px;
+    text-align: center;
+  }
+  .home-news .news-box .event-img {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .home-news .news-box .date {
+    color: white;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .home-news .news-box h1 {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+  }
+  .home-news .news-box .date i {
+    margin-right: 10px;
+  }
+  .home-news .news-box .desc {
+    color: white;
+    font-size: 12px;
+    padding: 0px 20px;
+    text-align: justify;
+  }
+  .home-news .news-box a {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
   }
 }
