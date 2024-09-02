@@ -297,19 +297,19 @@
 
 /* Home contact */
 .home-contact {
-  min-height: 50vh;
   max-height: 50vh;
-  background-image: url("Image/contactbg.png");
+  background-image: url("Image/contactusbg.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding-top: 70px;
+  padding-top: 40px;
   z-index: -5;
 }
 .home-contact .row {
   margin: 0px 350px;
   opacity: 2;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .home-contact .col-4 {
@@ -461,15 +461,12 @@ footer .line {
     display: none;
   }
   .home-service-box .name2 {
-    font-weight: 400;
     font-size: 12px;
-    text-transform: uppercase;
   }
   .home-service-box .description {
-    font-weight: 400;
     font-size: 12px;
     margin-top: -5px;
-    width: 90%;
+    width: 100%;
   }
   .home-service-box .price-tag {
     width: 15px;
@@ -478,19 +475,15 @@ footer .line {
   .home-service-box .price {
     font-weight: 700;
     font-size: 13px;
+    margin-top: -5px;
   }
 
   .home-service-box button {
-    background-color: transparent;
-    color: black;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 600;
-    text-transform: uppercase;
     font-size: 9px;
-    border: 2px solid #fcb040;
     margin-top: 10px;
-    transition: ease-in-out 0.2s;
   }
   .home-service-box button:hover {
     background-color: #fcb040;
@@ -498,9 +491,10 @@ footer .line {
   .home-service .viewmore button {
     text-transform: uppercase;
     font-weight: 700;
-    border-radius: 7px;
-    padding: 10px 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
     margin-top: 70px;
+    font-size: 13px;
     color: white;
     background-color: #171d2c;
     border: 1px solid #171d2c;
