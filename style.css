@@ -156,7 +156,7 @@
 
 /* Home news and events */
 .home-news {
-  background-image: url(/Image/Newsbg.png);
+  background-image: url("Image/Newsbg.png");
   max-height: 80vh;
   min-height: 80vh;
   object-fit: contain;
@@ -220,7 +220,7 @@
 /* Home about */
 
 .home-about {
-  background-image: url(/Image/aboutbg.png);
+  background-image: url("Image/aboutbg.png");
   min-height: 100vh;
   object-fit: cover;
   background-repeat: no-repeat;
