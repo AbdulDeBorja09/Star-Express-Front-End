@@ -65,7 +65,47 @@
   text-transform: uppercase;
   color: black;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.1;
+}
+.carousel-1 h6 {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+}
+.carousel-1 p {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  width: 60%;
+}
+.carousel-1 button {
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 5px 20px;
+  /* border: 1px solid black; */
+  transition: ease-in-out 0.2s;
+  border: 1px solid black;
+}
+.carousel-1 button:hover {
+  border: 1px solid black;
+  color: white;
+}
+.carousel-2 {
+  width: 100%;
+  left: 10;
+  top: 0;
+  padding: 0px 00px 0px 0px;
+  position: absolute;
+  width: 60%;
+}
+.carousel-2 h5 {
+  font-size: 8vh;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  line-height: 1.1;
 }
 
 /* Home Services */
